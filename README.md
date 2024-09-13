@@ -1,9 +1,12 @@
 PHP OOP and Laravel Assignment
+
 Overview
+
 This repository contains solutions for three tasks demonstrating Object-Oriented Programming (OOP) in PHP and a simple To-Do CRUD module using Laravel with Blade view rendering.
 
 Tasks
 Task 1: Class Inheritance
+
 Objective:
 Create classes to represent geometric shapes, including circles and rectangles, and implement methods for calculating their areas.
 
@@ -26,6 +29,7 @@ Implements the getArea() method to calculate the area of the rectangle using the
 
 
 Task 3: Encapsulation
+
 Objective:
 Design a class to manage employee data, demonstrating encapsulation by setting and getting employee salaries securely.
 
@@ -38,7 +42,8 @@ Provides methods getSalary() and setSalary() to access and modify the salary wit
 Includes a method getName() to access the employee's name.
 
 
-Task 5: To-Do Module (Mandatory)
+Task 5: To-Do Module
+
 Objective:
 Develop a simple To-Do CRUD (Create, Read, Update, Delete) module using the Laravel Framework with Blade view rendering.
 
@@ -54,25 +59,32 @@ Develop CRUD Operations:
 Implement controllers and routes for creating, reading, updating, and deleting To-Do items.
 
 Blade View Rendering:
+
 Views:
 Create Blade templates for displaying the To-Do list, and forms for adding and editing To-Do items.
+
 Controller:
 Handle CRUD operations and pass data to the Blade views.
 Usage Instructions:
 
 Clone the Repository:
+
 Copy code
-git clone <repository-url>
+git clone "repository-url"
 
 Navigate to the Project Directory:
+
 Copy code
-cd <repository-directory>
+cd "repository-directory"
 
 Install Dependencies:
+
 composer install
+
 npm install
 
 Run Laravel Migrations:
+
 php artisan migrate
 
 Start the Laravel Development Server:
